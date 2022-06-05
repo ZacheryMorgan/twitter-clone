@@ -10,7 +10,7 @@ export default function LoadMore({ tweets, setTweets }) {
           setTweets([...tweets, ...data]);
         }}
       >
-        Load more
+        Load more tweets
       </button>
     </div>
   );
